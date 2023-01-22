@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1080px) {
+    .image-main {
+        display: none;
+    }
+
+    .form {
+        max-width: 60%;
+        width: 80%;
+        max-height: 100%;
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+    }
+
+    body {
+        background: url(../images/BG\ \(1\).png) no-repeat;
+        background-size: cover;
+        width: 100%;
+    }   
+    
+    button {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 14px;
+    }
+
+    .dir-autorais {
+        color: black;
+        text-align: center;
+        margin-top: 120px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .image-main {
+        display: none;
+    }
+
+
+    .form {
+        max-width: 90%;
+        width: 80%;
+        max-height: 100%;
+        background-color: white;
+        display: block;
+        margin: 0 auto;
+
+    }
+
+    h2, span {
+        font-size: 16px;
+    }
+
+    body {
+        background: url(../images/BG\ \(1\).png) no-repeat;
+        width: 100%;
+    }
+
+    button {
+        display: block;
+        margin: 0 auto;
+        width: 80%;
+        font-size: 14px;
+    }    
+
+}
+
+
+
+
